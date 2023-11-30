@@ -1,19 +1,20 @@
 import { Component } from '@angular/core';
 //Angular material
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
+import { MaterialComponent } from '../material.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [
-    MatToolbarModule,
-    MatIconModule
+    MaterialComponent
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
   
 })
 export class HeaderComponent {
+openSideNav() {
+throw new Error('Method not implemented.');
+}
 
 }
