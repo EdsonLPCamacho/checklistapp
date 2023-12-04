@@ -1,3 +1,40 @@
-<app-header></app-header>
+
+
+<div class="main-container">   
+    <app-header [sidenav]="sidenav"></app-header> 
+        <mat-sidenav-container>          
+              
+          <mat-sidenav #sidenav class=".w-10p">   
+            
+            <mat-list role="list">
+              <mat-list-item role="listitem" (click)="sidenav.toggle()">
+                
+                <a href="">
+                
+                  <div class="icon-with-text">
+                    
+                      <mat-icon class="home-margin">home</mat-icon>
+                      Home
+                    
+                  </div>
+
+              </a>
+                
+              </mat-list-item>                
+          </mat-list>
+          
+               
+          </mat-sidenav>
+
+          <mat-sidenav-content>
+           <h1>SideNavBar</h1>
+           <router-outlet></router-outlet>
+          </mat-sidenav-content>
+            
+
+        </mat-sidenav-container>      
+      
+
+</div>
+
 <app-footer></app-footer>
-<router-outlet></router-outlet>

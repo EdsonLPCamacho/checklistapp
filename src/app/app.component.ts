@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from './footer/footer.component';
+import { MaterialComponent } from './material.component';
+
 
 
 @Component({
@@ -14,9 +16,13 @@ import { FooterComponent } from './footer/footer.component';
       CommonModule, 
       RouterOutlet, 
       HeaderComponent, 
-      FooterComponent
+      FooterComponent,
+      MaterialComponent
+    
     ]
 })
 export class AppComponent {
-  title = 'checklistapp';
+[x: string]: any;
+ public events: string[] = [];
+ public opened: boolean = false;
 }

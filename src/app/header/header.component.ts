@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 //Angular material
 import { MaterialComponent } from '../material.component';
+import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-header',
@@ -13,8 +14,10 @@ import { MaterialComponent } from '../material.component';
   
 })
 export class HeaderComponent {
-openSideNav() {
-throw new Error('Method not implemented.');
+  @Input() sidenav!: MatSidenav;
+
+  openSideNav() {  
+    this.sidenav.toggle();
 }
 
 }
