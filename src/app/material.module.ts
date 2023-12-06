@@ -6,7 +6,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { FormsModule } from '@angular/forms';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatListModule } from '@angular/material/list';
-import { MatSidenav } from '@angular/material/sidenav';
+/* import { MatSidenav } from '@angular/material/sidenav'; */
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   exports: [
@@ -15,8 +16,10 @@ import { MatSidenav } from '@angular/material/sidenav';
     MatSidenavModule,
     FormsModule,
     MatCheckboxModule,
-    MatListModule
+    MatListModule,
+    MatDividerModule,
+    
 
   ],
 })
-export class MaterialComponent {}
+export class MaterialModule {}

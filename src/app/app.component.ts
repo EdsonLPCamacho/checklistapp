@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from './footer/footer.component';
-import { MaterialComponent } from './material.component';
+import { MaterialModule } from './material.module';
 
 
 
@@ -17,7 +17,7 @@ import { MaterialComponent } from './material.component';
       RouterOutlet, 
       HeaderComponent, 
       FooterComponent,
-      MaterialComponent
+      MaterialModule
     
     ]
 })

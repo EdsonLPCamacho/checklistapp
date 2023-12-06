@@ -1,25 +1,33 @@
-<div class="main-container">   
+<div class="main-container" >   
     <app-header [sidenav]="sidenav"></app-header> 
-        <mat-sidenav-container>          
-              
-          <mat-sidenav #sidenav class=".w-10p">   
-            
-            <mat-list role="list">
-              <mat-list-item role="listitem" (click)="sidenav.toggle()">
-                
-                <a href="">
-                
-                  <div class="icon-with-text">
-                    
-                      <mat-icon class="home-margin">home</mat-icon>Home
-                    
-                  </div>
 
-              </a>
-                
+        <mat-sidenav-container>          
+            
+          <mat-sidenav #sidenav class="w-10p">   
+            
+            <mat-list>
+
+              <mat-list-item role="listitem" (click)="sidenav.toggle()">                
+                <a href="#">                
+                  <div class="icon-with-text">                    
+                      <mat-icon class="home-margin">home</mat-icon>Home                    
+                  </div>
+              </a>                
               </mat-list-item>                
-          </mat-list>
-          
+
+              <mat-divider></mat-divider>
+              
+              <mat-list-item role="listitem" (click)="sidenav.toggle()">                
+                <a href="#">                
+                  <div class="icon-with-text">                    
+                      <mat-icon class="home-margin">list</mat-icon>Category                    
+                  </div>
+              </a>                
+              </mat-list-item>                
+
+            </mat-list>
+
+                
                
           </mat-sidenav>
 
@@ -30,6 +38,7 @@
 
         </mat-sidenav-container>      
 
+        <app-footer></app-footer>       
 </div>
 
-<app-footer></app-footer>
+

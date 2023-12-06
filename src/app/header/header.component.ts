@@ -1,13 +1,13 @@
 import { Component, Input } from '@angular/core';
 //Angular material
-import { MaterialComponent } from '../material.component';
+import { MaterialModule } from '../material.module';
 import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [
-    MaterialComponent
+    MaterialModule
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
