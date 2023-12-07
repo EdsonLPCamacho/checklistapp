@@ -4,7 +4,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { CategoryComponent } from './category/category.component';
 
 export const routes: Routes = [
+    
     { path: '', component: HomeComponent },
-    { path: '**', component: PageNotFoundComponent },
-    { path: 'category', component: CategoryComponent }
+    { path: 'category', component: CategoryComponent },
+    { path: '**', component: PageNotFoundComponent }
+
 ]

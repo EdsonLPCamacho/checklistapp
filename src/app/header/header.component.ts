@@ -17,7 +17,7 @@ export class HeaderComponent {
   @Input() sidenav!: MatSidenav;
 
   openSideNav() {  
-    this.sidenav.toggle();
-}
+    this.sidenav.toggle();  
+  }
 
 }

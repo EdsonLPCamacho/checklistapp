@@ -5,29 +5,31 @@
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0;   
+   
   }
 
 a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover{
-    font-size: 18px;
+    font-size: 15px;
+   
+
 }
 
 html, body, .main-container, mat-sidenav-container {
     margin: 0;
     height: 100%;
     width: 100%;
-    
+    font-family: 'Futura', sans-serif;
+   
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
+
 
 

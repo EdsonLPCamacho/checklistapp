@@ -6,8 +6,10 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { FormsModule } from '@angular/forms';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatListModule } from '@angular/material/list';
-/* import { MatSidenav } from '@angular/material/sidenav'; */
-import {MatDividerModule} from '@angular/material/divider';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatCardModule } from '@angular/material/card';
+import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   exports: [
@@ -18,7 +20,9 @@ import {MatDividerModule} from '@angular/material/divider';
     MatCheckboxModule,
     MatListModule,
     MatDividerModule,
-    
+    MatCardModule,
+    MatTableModule,
+    MatButtonModule
 
   ],
 })

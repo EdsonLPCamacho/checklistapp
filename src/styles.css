@@ -4,11 +4,12 @@ html, body {
 
 body { 
   margin: 10px;  
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
-.w-10p{
-    width: 10%;        
+.snav-style{
+    width: 15%; 
+    background-color: #141622 !important;       
 }
 
 /* Home icon */
@@ -27,4 +28,16 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-  
+
+.bt-width{
+
+  width: 100px;
+
+}
+
+.mg-bt{
+
+  margin: 10px;
+
+}
+
