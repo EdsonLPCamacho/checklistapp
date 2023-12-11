@@ -41,3 +41,16 @@ body {
 
 }
 
+.flx-center-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flx-evly{
+  justify-content: space-evenly;
+}
+
+.wd-300{
+  width: 300px;
+}
